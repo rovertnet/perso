@@ -1,4 +1,6 @@
 import { IoLogoGoogle } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
 
 function Login() {
   return (
@@ -14,13 +16,10 @@ function Login() {
               <IoLogoGoogle className=" text-blue-700 font-extrabold text-xl" />
             </a>
             <a href="" className=" bg-slate-100 py-2 px-6 rounded-xl">
-              R
+              <FaGithub className="font-extrabold text-xl text-slate-900" />
             </a>
             <a href="" className=" bg-slate-100 py-2 px-6 rounded-xl">
-              R
-            </a>
-            <a href="" className=" bg-slate-100 py-2 px-6 rounded-xl">
-              R
+              <FaApple className="font-extrabold text-xl text-slate-900" />
             </a>
           </div>
           <div className=" ">
