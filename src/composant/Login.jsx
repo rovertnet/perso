@@ -38,6 +38,13 @@ function Login() {
                 <button className=" bg-blue-600 py-2 px-20 text-2xl font-bold text-white rounded-xl">
                   Sign In
                 </button>
+                <div className="flex justify-center items-center md:mt-12 mt-10 gap-2">
+                  <input type="checkbox" />
+                  <p className=" text-slate-700 text-lg">Remember</p>
+                  <div className="">
+                    <a href="#" className="">Créer un compte</a>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
