@@ -3,28 +3,26 @@
 function GridImg() {
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex gap-4 md:mx-10 mx-7">
         <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-              alt=""
-            />
-          </div>
+          <img
+            className="h-full max-w-full rounded-lg"
+            src="../public/13.png"
+            alt=""
+          />
         </div>
-        <div className="grid gap-4">
+        <div className=" grid grid-cols-1 md:grid-cols-1 gap-4">
           <div>
             <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+              className="md:h-full max-w-full rounded-lg"
+              src="../public/moi.png"
               alt=""
             />
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+              className="md:h-full max-w-full rounded-lg"
+              src="../public/moi.png"
               alt=""
             />
           </div>
