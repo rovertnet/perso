@@ -7,7 +7,7 @@ function GridImg() {
         <div className="grid gap-4">
           <img
             className="h-full max-w-full rounded-lg"
-            src="../public/13.png"
+            src="../public/MISION/1.png"
             alt=""
           />
         </div>
@@ -15,14 +15,14 @@ function GridImg() {
           <div>
             <img
               className="md:h-full max-w-full rounded-lg"
-              src="../public/moi.png"
+              src="../public/1.png"
               alt=""
             />
           </div>
           <div>
             <img
               className="md:h-full max-w-full rounded-lg"
-              src="../public/moi.png"
+              src="../public/2.png"
               alt=""
             />
           </div>
