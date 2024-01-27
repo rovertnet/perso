@@ -5,26 +5,26 @@ import { FaApple } from "react-icons/fa";
 function Login() {
   return (
     <>
-      <div className="bloc1 md:mx-96 mx-80 md:px-16 px-14 md:h-full h-full rounded-xl bg-white md:my-60 my-56 shadow-md md:py-14 py-12">
+      <div className="block md:mx-96 mx-80 md:px-16 px-14 md:h-full h-full rounded-xl bg-white md:my-60 my-56 shadow-md md:py-8 py-6">
         <div>
           <h1 className=" text-slate-500 md:text-3xl text-2xl md:mb-14 mb-11 text-center font-extrabold">
             {" "}
             Sign In Now
           </h1>
           <div className="flex justify-center items-center gap-5">
-            <a href="" className=" bg-slate-100 py-2 px-6 rounded-xl">
+            <a href="" className=" bg-slate-100 py-2 px-9 rounded-xl">
               <IoLogoGoogle className=" text-blue-700 font-extrabold text-xl" />
             </a>
-            <a href="" className=" bg-slate-100 py-2 px-6 rounded-xl">
+            <a href="" className=" bg-slate-100 py-2 px-9 rounded-xl">
               <FaGithub className="font-extrabold text-xl text-slate-900" />
             </a>
-            <a href="" className=" bg-slate-100 py-2 px-6 rounded-xl">
+            <a href="" className=" bg-slate-100 py-2 px-9 rounded-xl">
               <FaApple className="font-extrabold text-xl text-slate-900" />
             </a>
           </div>
           <div className=" ">
             <form action="">
-              <div className=" flex flex-col md:py-10 py-8">
+              <div className=" flex flex-col md:py-6 py-4">
                 <input
                   type="text"
                   placeholder=" Nom complet"
@@ -38,12 +38,15 @@ function Login() {
                 <button className=" bg-blue-600 py-2 px-20 text-2xl font-bold text-white rounded-xl">
                   Sign In
                 </button>
-                <div className="flex justify-center items-center md:mt-12 mt-10 gap-2">
+                <div className="flex justify-center items-center md:my-5 my-3 gap-2">
                   <input type="checkbox" />
                   <p className=" text-slate-700 text-lg">Remember</p>
-                  <div className="">
-                    <a href="#" className="">Créer un compte</a>
-                  </div>
+                </div>
+                <hr />
+                <div className=" text-center md:mt-3 mt-2">
+                  <a href="#" className=" text-center text-blue-600 text-xl font-bold">
+                    Créer un compte
+                  </a>
                 </div>
               </div>
             </form>

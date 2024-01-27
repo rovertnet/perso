@@ -1,12 +1,11 @@
-import Login from "./composant/Login"
-
+import Card from "./composant/Card";
 
 function App() {
   
   return (
     <>
-      <div className=" bg-gray-200 md:px-24 px-20 md:py-24 py-20">
-        <Login />
+      <div className=" bg-gray-200">
+        <Card />
       </div>
     </>
   );
