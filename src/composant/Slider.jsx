@@ -1,10 +1,10 @@
+import { Carousel } from "flowbite-react";
 
-
-function Carousel() {
+function Slider() {
   return (
     <>
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-        <Carousel>
+      <div className="grid h-56 grid-cols-2 gap-4 md:h-64 xl:h-80 2xl:h-96">
+        <Carousel indicators={false}>
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             alt="..."
@@ -31,4 +31,4 @@ function Carousel() {
   );
 }
 
-export default Carousel
+export default Slider
