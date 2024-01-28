@@ -7,7 +7,7 @@ function GridImg() {
         <div className="grid gap-4">
           <img
             className="h-full max-w-full rounded-lg"
-            src="../public/LEFT.png"
+            src="../public/gauche.png"
             alt=""
           />
         </div>

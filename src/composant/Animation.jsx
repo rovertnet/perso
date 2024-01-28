@@ -1,7 +1,13 @@
 
 function Animation() {
   return (
-    <div>Animation</div>
+    <>
+      <div className="">
+        <div className="">
+          <h1 className=""></h1>
+        </div>
+      </div>
+    </>
   )
 }
 
