@@ -1,4 +1,5 @@
-import Animation from "./composant/Animation";
+
+import Modale from "./composant/Modal";
 
 
 
@@ -10,7 +11,7 @@ function App() {
         <GridImg />
       </div> */}
 
-      <Animation />
+      <Modale />
     </>
   );
 }
