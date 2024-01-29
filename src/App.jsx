@@ -1,14 +1,10 @@
-
-
-import Login from "./composant/Login";
-
-
+import Teams from "./composant/Teams";
 
 function App() {
   
   return (
     <>
-      <Login />
+      <Teams />
     </>
   );
 }
