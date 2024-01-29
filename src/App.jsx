@@ -1,5 +1,6 @@
 
-import Modale from "./composant/Modal";
+
+import Login from "./composant/Login";
 
 
 
@@ -7,7 +8,7 @@ function App() {
   
   return (
     <>
-      <Modale />
+      <Login />
     </>
   );
 }
