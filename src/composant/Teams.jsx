@@ -4,28 +4,54 @@ const Teams = () => {
 
   const people = [
     {
-      firstname: "Tonyo",
-      lastname: "Delapena",
-      role: "Boss",
-      picture: "https://fancytailwind.com/static/profile8-34d5f5980ca5030c155a2ffbb50b5802.jpg",
-      description: "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
+      firstname: "Robert",
+      lastname: "MATUNDU",
+      role: "Développeur",
+      picture: "../public/moi.png",
+      description:
+        "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
       facebookURL: "#link",
       twitterURL: "#link",
       linkedinURL: "#link",
       youtubeURL: "#link",
     },
     {
-      firstname: "Laetitia",
-      lastname: "Librals",
-      role: "Designer",
-      picture: "https://fancytailwind.com/static/profile14-e9ac6c7d68a78a1cbbf29458acacc95a.jpg",
-      description: "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
+      firstname: "Rabby",
+      lastname: "KIKWELE",
+      role: "Développeur Web",
+      picture: "../public/TEAM/2.png",
+      description:
+        "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
       facebookURL: "#link",
       twitterURL: "#link",
       linkedinURL: "#link",
       youtubeURL: "#link",
     },
-  ]
+    {
+      firstname: "Jonathan",
+      lastname: "KABONGO",
+      role: "Développeur Web",
+      picture: "../public/TEAM/3.png",
+      description:
+        "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
+      facebookURL: "#link",
+      twitterURL: "#link",
+      linkedinURL: "#link",
+      youtubeURL: "#link",
+    },
+    {
+      firstname: "Océan",
+      lastname: "KALALA",
+      role: "Développeur Web",
+      picture: "../public/TEAM/5.png",
+      description:
+        "Harum iusto exercitationem assumenda quas nostrum perspiciatis quos iste sit reprehenderit, libero quae aperiam sapiente delectus, porro tempore minus repellendus ratione distinctio!",
+      facebookURL: "#link",
+      twitterURL: "#link",
+      linkedinURL: "#link",
+      youtubeURL: "#link",
+    },
+  ];
 
   const [member, setMember] = useState(0)
   return (
@@ -33,11 +59,9 @@ const Teams = () => {
       <div className="relative mx-auto py-10 w-full max-w-7xl bg-gray-50 text-gray-700">
         {/* :TITLE CONTAINER */}
         <div className="mb-8 flex justify-center items-center">
-          <span className="h-1 w-14 rounded-3xl bg-gray-700" />
           <h2 className="px-3 text-sm font-semibold uppercase">
-            Our passionate team
+            Notre Equipe
           </h2>
-          <span className="h-1 w-14 rounded-3xl bg-gray-700" />
         </div>
 
         <div className="mx-auto px-4 w-full max-w-5xl grid grid-cols-2 gap-y-4 sm:gap-y-10">
