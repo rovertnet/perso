@@ -7,7 +7,7 @@ function Devis() {
         <div className="">
             {/* Formulaire */}
             <form action="">
-              
+
             </form>
         </div>
       </div>
