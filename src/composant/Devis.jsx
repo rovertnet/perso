@@ -39,6 +39,7 @@ function Devis() {
                 id=""
                 cols="20"
                 rows="5"
+                placeholder="Votre message"
                 className="md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-gray-300 text-slate-900 outline outline-0 focus:outline-0"
               />
             </div>
