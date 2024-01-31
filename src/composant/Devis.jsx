@@ -2,7 +2,7 @@
 function Devis() {
   return (
     <>
-      <div className="md:px-14 px-10  md:py-10 py-8 md:mx-12 mx-10 rounded-md bg-slate-700">
+      <div className="md:px-14 px-10  md:py-7 py-5 md:mx-12 mx-10 rounded-md bg-slate-700">
         <div className="flex justify-between items-center">
           <button className=" bg-black md:py-2 py-2 md:px-14 text-white md:my-10 my-8 font-extrabold rounded-md">
             Modal
