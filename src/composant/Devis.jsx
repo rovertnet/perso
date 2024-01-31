@@ -6,6 +6,9 @@ function Devis() {
         <button className=""></button>
         <div className="">
             {/* Formulaire */}
+            <form action="">
+              
+            </form>
         </div>
       </div>
     </>
