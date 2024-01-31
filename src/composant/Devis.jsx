@@ -11,7 +11,7 @@ function Devis() {
             X
           </button>
         </div>
-        <div className=" mb-10 shadow-lg shadow-zinc-200 bg-white opacity-25 rounded-md md:px-10 px-5 md:py-10 py-5 md:w-full w-full">
+        <div className=" mb-10 shadow-lg shadow-zinc-200 bg-white opacity-40 rounded-md md:px-10 px-5 md:py-10 py-5 md:w-full w-full">
           {/* Formulaire */}
           <form action="">
             <div className="flex justify-center items-center gap-10">
