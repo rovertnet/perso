@@ -11,9 +11,9 @@ function Devis() {
           </button>
         </div>
         {/* Block form */}
-        <div className="flex justify-normal items-center gap-10">
+        <div className="flex flex-row-reverse justify-normal items-center gap-10">
           <div className=" md:w-2/6">
-            <img src="../public/moi.png" alt="" className=" md:w-full"/>
+            <img src="../public/moi.png" alt="" className=" md:w-full     "/>
           </div>
           {/* le formulaire */}
           <div className=" md:w-4/5 w-3/5">
