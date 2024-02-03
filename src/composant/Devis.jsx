@@ -50,7 +50,7 @@ function Devis() {
                   />
                 </div>
                 <div>
-                  <button className=" bg-black text-white rounded-md font-semibold text-xl md:px-10 px-10 md:py-3 py-2">
+                  <button className=" bg-black text-white rounded-md font-semibold text-xl md:px-10 px-10 md:py-3 py-">
                     {" "}
                     Envoyez
                   </button>

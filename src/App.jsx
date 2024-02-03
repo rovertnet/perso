@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Teams />
-      <div className="md:my-10 mx-5">
+      <div className="md:my-10">
         <Devis />
       </div>
     </>
