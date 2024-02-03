@@ -1,7 +1,7 @@
 function Devis() {
   return (
     <>
-      <div className="md:px-14 px-10  md:py-3 py-5 md:mx-12 rounded-md bg-slate-700">
+      <div className="md:px-10 px-10  md:py-3 py-5 rounded-md bg-slate-700">
         <div className="flex justify-between items-center">
           <button className=" bg-black md:py-2 py-2 md:px-14 text-white md:my-10 my-8 font-extrabold rounded-md">
             Modal
@@ -11,12 +11,12 @@ function Devis() {
           </button>
         </div>
         {/* Block form */}
-        <div className="flex flex-row-reverse justify-normal items-center gap-10">
+        <div className="flex flex-col md:flex-row-reverse justify-normal items-center gap-10">
           <div className=" md:w-2/6">
-            <img src="../public/moi.png" alt="" className=" md:w-full     "/>
+            <img src="../public/moi.png" alt="" className=" md:w-full rounded-md" />
           </div>
           {/* le formulaire */}
-          <div className=" md:w-4/5 w-3/5">
+          <div className=" md:w-4/5 w-5/3">
             <div className=" mb-10 shadow-lg shadow-zinc-200 bg-white opacity-40 rounded-md md:px-10 px-3 md:py-10 py-5 md:w-full w-full">
               {/* Formulaire */}
               <form action="">
