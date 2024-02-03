@@ -1,7 +1,7 @@
 function Devis() {
   return (
     <>
-      <div className="md:px-10 px-10  md:py-3 py-5 rounded-md bg-slate-700">
+      <div className="md:px-10 px-10  md:py-3 py-5 rounded-md bg-fixed" style="background-image: url('../public/house.jpg')">
         <div className="flex justify-between items-center">
           <button className=" bg-black md:py-2 py-2 md:px-14 px-7 text-white md:my-10 my-8 font-extrabold rounded-md">
             Modal
