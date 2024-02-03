@@ -23,26 +23,26 @@ function Devis() {
           </div>
           {/* le formulaire */}
           <div className=" md:w-4/5 w-5/3">
-            <div className=" mb-10 shadow-lg shadow-zinc-200 bg-gray-700 opacity-40 rounded-md md:px-10 px-3 md:py-10 py-5 md:w-full w-full">
+            <div className=" mb-10 shadow-lg shadwhite bg-[#7979797a] rounded-md md:px-10 px-3 md:py-10 py-5 md:w-full w-full">
               {/* Formulaire */}
               <form action="">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-3">
                   <input
                     type="text"
                     placeholder="Votre nom"
-                    className=" md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-gray-300 text-slate-900 outline outline-0 focus:outline-0"
+                    className=" md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-white text-slate-900 outline outline-0 focus:outline-0"
                   />
                   <input
                     type="text"
                     placeholder="Votre nom"
-                    className=" md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-gray-300 text-slate-900 outline outline-0 focus:outline-0"
+                    className=" md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-white text-slate-900 outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div className=" md:my-5 my-3">
                   <input
                     type="mail"
                     placeholder="Votre mail"
-                    className=" md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-gray-300 text-slate-900 outline outline-0 focus:outline-0"
+                    className=" md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-white text-slate-900 outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div className="md:my-5 my-3">
@@ -52,7 +52,7 @@ function Devis() {
                     cols="20"
                     rows="5"
                     placeholder="Votre message"
-                    className="md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-gray-300 text-slate-900 outline outline-0 focus:outline-0"
+                    className="md:px-5 px-3 md:py-2 py-2 rounded-md md:w-full w-full bg-white text-slate-900 outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div>
