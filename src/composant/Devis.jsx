@@ -3,10 +3,10 @@ function Devis() {
     <>
       <div className="md:px-10 px-10  md:py-3 py-5 rounded-md bg-slate-700">
         <div className="flex justify-between items-center">
-          <button className=" bg-black md:py-2 py-2 md:px-14 text-white md:my-10 my-8 font-extrabold rounded-md">
+          <button className=" bg-black md:py-2 py-2 md:px-14 px-7 text-white md:my-10 my-8 font-extrabold rounded-md">
             Modal
           </button>
-          <button className=" bg-black md:py-2 py-2 md:px-4 px-2 text-white md:my-10 my-8 font-extrabold rounded-full">
+          <button className=" bg-black md:py-2 py-2 md:px-4 p-4 text-white md:my-10 my-8 font-extrabold rounded">
             X
           </button>
         </div>
@@ -54,7 +54,7 @@ function Devis() {
                   />
                 </div>
                 <div>
-                  <button className=" bg-black text-white rounded-md font-semibold text-xl md:px-10 px-20 md:py-3 py-2">
+                  <button className=" bg-black text-white rounded-md font-semibold text-xl md:px-10 px-28 md:py-3 py-2">
                     {" "}
                     Envoyez
                   </button>
