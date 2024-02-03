@@ -23,17 +23,20 @@ function Devis() {
           </div>
         </div>
         {/* Block form */}
-        <div className="flex flex-col md:flex-row-reverse justify-normal items-center gap-10">
-          <div className=" md:w-5/3 w-5/3 md:px-10 px-3">
+        <div className="flex flex-col md:flex-row-reverse justify-normal items-center gap-10 ">
+          <div className=" md:w-5/3 w-5/3 md:px-10 px-3 md:h-3/3">
+            <h1 className="text-white text-2xl font-bold py-5 text-center">
+              EXprimez-vous
+            </h1>
             <img
               src="../public/CONTACT.png"
               alt=""
-              className=" md:w-full rounded-md"
+              className=" md:w-full h-full"
             />
           </div>
           {/* le formulaire */}
           <div className=" md:w-4/5 w-5/3">
-            <div className=" mb-10 shadow-lg bg-white/35 backdrop-blur-2xl rounded-md md:px-10 px-8 md:py-10 py-8 md:w-full w-full">
+            <div className=" mb-10 shadow-lg bg-white/35 backdrop-blur-sm rounded-md md:px-10 px-8 md:py-10 py-8 md:w-full w-full">
               {/* Formulaire */}
               <form action="">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-3">
