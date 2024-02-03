@@ -13,7 +13,11 @@ function Devis() {
         {/* Block form */}
         <div className="flex flex-col md:flex-row-reverse justify-normal items-center gap-10">
           <div className=" md:w-2/6">
-            <img src="../public/moi.png" alt="" className=" md:w-full rounded-md" />
+            <img
+              src="../public/moi.png"
+              alt=""
+              className=" md:w-full rounded-md"
+            />
           </div>
           {/* le formulaire */}
           <div className=" md:w-4/5 w-5/3">
@@ -50,7 +54,7 @@ function Devis() {
                   />
                 </div>
                 <div>
-                  <button className=" bg-black text-white rounded-md font-semibold text-xl md:px-10 px-10 md:py-3 py-">
+                  <button className=" bg-black text-white rounded-md font-semibold text-xl md:px-20 px-10 md:py-3 py-4">
                     {" "}
                     Envoyez
                   </button>
