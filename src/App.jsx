@@ -1,4 +1,5 @@
-import Devis from "./composant/Devis";
+
+import Equipe from "./composant/TEAMS/equipe";
 import Teams from "./composant/Teams";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <>
       <Teams />
       <div className="md:my-10">
-        <Devis />
+        <Equipe />
       </div>
     </>
   );
