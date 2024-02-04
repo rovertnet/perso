@@ -5,12 +5,12 @@ import { RiMapPin2Fill } from "react-icons/ri";
 function Devis() {
   return (
     <>
-      <div className="md:px-10 px-10  md:py-3 py-5 bg-cover object-cover bg-[url('../../public/bg1.jpg')] ">
+      <div className="md:px-10 px-10  md:py-3 py-5 bg-cover object-cover bg-[url('../../public/bg2.jpg')] ">
         <div className="flex justify-between items-center">
           <button className=" bg-black md:py-2 py-2 md:px-14 px-7 text-white md:my-10 my-8 font-extrabold rounded-md">
             Modal
           </button>
-          <div className=" flex justify-center items-center gap-3 bg-white/35 backdrop-blur-2xl md:px-10 px-3 md:mb-8 mb-6 rounded-md md:py-1 py-0">
+          <div className=" flex justify-center items-center gap-3 md:px-10 px-3 md:mb-8 mb-6 rounded-md md:py-1 py-0">
             <button className=" bg-black rounded-md md:py-2 py-2 md:px-4 p-4 text-white md:my-10 my-8 font-extrabold ">
               <FaPhoneAlt className=" text-white font-bold text-xl" />
             </button>
@@ -25,9 +25,6 @@ function Devis() {
         {/* Block form */}
         <div className="flex flex-col md:flex-row-reverse justify-normal items-center gap-10 ">
           <div className=" md:w-5/3 w-5/3 md:px-10 px-3 md:h-3/3">
-            <h1 className="text-white text-2xl font-bold py-5 text-center">
-              EXprimez-vous
-            </h1>
             <img
               src="../public/CONTACT.png"
               alt=""
